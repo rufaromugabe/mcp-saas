@@ -1,6 +1,6 @@
 # Core MCP dependencies
-mcp>=1.9.0
-fastmcp>=0.4.0
+mcp>=1.9.0,<2.0.0
+fastmcp>=0.4.0,<1.0.0
 
 # Environment configuration
 python-dotenv>=1.0.0
@@ -26,7 +26,8 @@ passlib[bcrypt]>=1.7.4
 
 # HTTP client and utilities
 httpx>=0.25.0
-aiohttp>=3.9.0
+aiohttp>=3.9.0,<3.10.0
+yarl>=1.12.0,<2.0.0
 aiofiles>=23.2.0
 pydantic>=2.5.0
 
